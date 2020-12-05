@@ -47,7 +47,7 @@ check kernels:
 
 	jupyter kernelspec list
 
-## if Python is absent / environment kernel, add it using this command
+## if Python is or environment kernel is absent, add it using this command
 	python -m ipykernel install --user --name teachopencadd --display-name "Python (teachopencadd)"
 
 ## check kernel of environment
