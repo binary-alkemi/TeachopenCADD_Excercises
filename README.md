@@ -4,7 +4,7 @@ This repository contains tutorial from TeachopenCADD website to understand CADD 
 
 link: https://projects.volkamerlab.org/teachopencadd/talktorials.html
 
-## chembl webclient  installation
+## TeachOpenCADD installation.
 I installed chembl with conda. See below:
 
 	wget https://github.com/volkamerlab/teachopencadd/archive/master.zip -O teachopencadd.zip
@@ -21,7 +21,7 @@ I installed chembl with conda. See below:
 ## check all packages installed
 	conda list
 
-## now in case if you face error below even if chEMBL client is installed. This is the general solution if Package/ module is installed but can not be imported in Jupyter notebook.
+## now in case if you face an error as shown below even if chEMBL client is installed, then below is the general solution. This is a common solution if Package/ module is installed but can not be imported in Jupyter notebook.
 
 	Error:
 	"No module named 'chembl_webresource_client'"
